@@ -18,7 +18,7 @@
       }
 
       .animated-text {
-        margin-top: 50px;
+        margin-top: 40px;
         width: 70vw;
         height: 12vh;
         /* background-color: black; */
@@ -30,7 +30,6 @@
       }
 
       .short-intro{
-        /* margin-top: 10vh; */
         width: 75vw;
         height: 55vh;
         /* background-color: orange; */
@@ -41,7 +40,7 @@
       }
 
       .menu-btn{
-        margin-top: 4vh;
+        margin-top: 3vh;
         width: 185px;
         height: 55px;
         font-size: 18px;
