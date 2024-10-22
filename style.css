@@ -451,13 +451,16 @@ align-items:center ;
   align-items: center;
   text-align: center;
   width: 100vw;
-  height: 15vh; 
-  font-family: "Cherish", cursive;
-  font-size: 65px;
-  letter-spacing: 6px;
-  word-spacing: 10px; 
+  height: 15vh;  
   background-color: rgb(213,0,0);
   /* margin-bottom: 5vh; */
+}
+#just-yety-second .yety-second{
+  font-family: "Cherish", cursive;
+  font-size: 35px;
+  letter-spacing: 6px;
+  word-spacing: 10px;
+
 }
 
 

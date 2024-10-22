@@ -153,23 +153,28 @@
 /* *************************************** */
     #company{
       display: flex;
-      height: 55vh;
+      height: 65vh;
     }
 
     .logo-name{
       display: flex;
       flex-direction: column;
-      /* height: 20vh; */
+      height: 35vh;
+      /* background-color: white; */
+    }
+    .logo-name img{
+      margin-right: 0;
     }
     .logo-name h1{
       padding-top: 30px;
       font-weight: bold;
       font-size: 40px;
       letter-spacing: 8px;
-      word-spacing: 10px;
+      word-spacing: 8px;
     }
 
     .socials{
+      /* margin-top: 7vh; */
       width: 100vw;
       justify-content: center;
         /* background-color: blue; */
@@ -179,12 +184,20 @@
     }
 
     .location-address{
-      margin-top: 0;
+      margin-top: 2vh;
       display: flex;
       width: 100%;
       height: 5vh;
       /* background-color: yellow;       */
     }
+/* *************************************** */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 40vh;
+}
 
       
     
