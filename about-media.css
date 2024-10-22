@@ -98,6 +98,16 @@
     width: 100vw;
     height: 80vh;
   }
+  .heady-desc{
+    font-size: 20px;
+  }
+  .client-list h3{
+    font-size: 20px;
+  }
+
+  .client-list p{
+    font-size: 20px;
+  }
   
  
 
