@@ -57,7 +57,7 @@
         width: 100vw;
         height: 110vh;
         justify-content: center;
-        background-color: orange;
+        /* background-color: orange; */
       }
       .service-head{
         display: flex;
@@ -94,41 +94,41 @@
       align-items: center;
       justify-content: center;
       margin-top: 0;
-      height: 120vh;
+      height: 130vh;
     } 
 
-    #best-offer img{
-      width: 180px;
-      height: 180px;
-      border-radius: 125px;
+    .pic{
+      width: 100%;
+      height: 50%;
+      /* background-color: aqua; */
+      /* border-radius: 90px; */
     } 
     .one{
       width: 100%;
-      height: 100%;
+      height:65%;
+      /* background-color: orange; */
     }
 
-    #best-offer .d-food{
-      width: 230px;
-      height: 230px;
-      margin-bottom: 10vh;
+    .pic img{
+      width: 200px;
+      height: 200px;
+      /* margin-bottom: 10vh; */
+    }
+
+    .pic .d-food{
+      width: 200px;
+      height: 200px;
+      /* margin-bottom: 10vh; */
     }
 
     /* START JUST YETY SLOGAN  */
     #just-yety{
-      flex-wrap: wrap;
-      width: 100vw;
-      height: 15vh; 
-      text-align: center;
+      display: none;
     }
 
-    #just-yety h5{
-      display: none;
-      visibility: hidden;
-      font-size: 35px;
-    }
-    #just-yety .yety-second{
+    
+    #just-yety-second{
       display: flex;
-      visibility: visible;
     }
 
     #service{

@@ -267,7 +267,7 @@ body{
   height: 80vh;
   justify-content: center;
   align-items: center;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .service-head{
@@ -327,9 +327,6 @@ align-items:center ;
 
 
 
-
-
-
 #best-offer{
   display: flex;
   justify-content: center;
@@ -340,7 +337,22 @@ align-items:center ;
   /* background-color: red; */
 }
 
-#best-offer > img{
+.pic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 50vh;
+  /* background-color: darkcyan; */
+}
+
+.pic img{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+#best-offer > .pic{
   scale: 0; opacity: 0;
   animation: fade-in linear;
   animation-timeline: view();
@@ -350,16 +362,11 @@ align-items:center ;
   to {scale: 1; opacity: 1;}
 }
 
-#best-offer > .d-food{
-  scale: 0; opacity: 0;
-  animation: fade-in linear;
-  animation-timeline: view();
-  animation-range: contain;
-}
-@keyframes fade-in {
-  to {scale: 1; opacity: 1;}
-}
-
+/* #best-offer .d-food{
+  width: 300px;
+  height: 300px;
+  border-radius: 145px;
+} */
 
 .one{
   display: flex;
@@ -384,14 +391,8 @@ align-items:center ;
   font-size: 40px;
   color: rgb(213,0,0);
 }
-#best-offer .d-food{
-  width: 40%;
-  height: 100%;
-  padding-bottom: 20px;
-  padding-right: 20px;
-}
 
-.home{
+.home-deli{
   font-family: 'Courier New', Courier, monospace;
   color:rgb(167,167,167) ;
   font-size: 20px;
@@ -423,12 +424,6 @@ align-items:center ;
 }
 
 
-#best-offer img{
-  width: 280px;
-  height: 280px;
-  border-radius: 145px;
-}
-
 
 #just-yety{
   display: flex;
@@ -438,7 +433,7 @@ align-items:center ;
   width: 100vw;
   height: 15vh; 
   background-color: rgb(213,0,0);
-  margin-bottom: 5vh;
+  /* margin-bottom: 5vh; */
 }
 
 #just-yety h5{
@@ -450,14 +445,19 @@ align-items:center ;
   word-spacing: 10px;
 }
 
-#just-yety .yety-second{
-  display: none;
-  visibility: hidden;
-  font-family: "Cherish", cursive;
+#just-yety-second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 35px;
+  width: 100vw;
+  height: 15vh; 
+  font-family: "Cherish", cursive;
+  font-size: 55px;
   letter-spacing: 6px;
-  word-spacing: 10px;
+  word-spacing: 10px; 
+  background-color: rgb(213,0,0);
+  /* margin-bottom: 5vh; */
 }
 
 
