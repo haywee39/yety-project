@@ -83,9 +83,13 @@ body{
   padding-right: 30px;
 }
 
+.navbar-toggler-icon {
+  background-color: white; 
+  padding-left: 40px;
+}
 /*END: ALL OF NAVBAR HERE  */
 
-
+/* ******************************************** */
 #service{
     padding-top: 15vh;
     display: flex;

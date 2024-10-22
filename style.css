@@ -83,8 +83,13 @@ body{
   padding-right: 30px;
 }
 
+.navbar-toggler-icon {
+  background-color: white; 
+  padding-left: 40px;
+}
 
 
+/* ***************************************** */
 #home{
   padding-top: 10vh;
   display: flex;

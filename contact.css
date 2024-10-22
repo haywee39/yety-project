@@ -83,8 +83,13 @@ body{
   padding-right: 30px;
 }
 
-/*END: ALL OF NAVBAR HERE  */
+.navbar-toggler-icon {
+  background-color: white; 
+  padding-left: 40px;
+}
 
+/*END: ALL OF NAVBAR HERE  */
+/* ******************************************************** */
 #contact{
     position: relative;
     display: flex;
