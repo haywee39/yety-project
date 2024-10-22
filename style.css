@@ -579,7 +579,7 @@ height: 100%;
 }
 
 .logo-name img{
-  margin-right: 40px;
+  /* margin-right: 40px; */
   width: 140px;
   height: 140px;
   border-radius: 150px;
