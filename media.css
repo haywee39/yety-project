@@ -142,16 +142,34 @@
     #cont-bar a{
       font-size: 20px;
     }
+    #cont-bar .fa-solid{
+      margin-right: 10px;
+      display: flex;
+      width: 40px;
+      height: 40px;
+      border-radius:20px;
+      color: black;
+      background-color: white;
+      align-items: center;
+      justify-content: center;
+    }
 /* *************************************** */
     #company{
       display: flex;
-      height: 50vh;
+      height: 55vh;
     }
 
     .logo-name{
       display: flex;
       flex-direction: column;
-      height: 18vh;
+      /* height: 20vh; */
+    }
+    .logo-name h1{
+      padding-top: 30px;
+      font-weight: bold;
+      font-size: 40px;
+      letter-spacing: 8px;
+      word-spacing: 10px;
     }
 
     .socials{
@@ -160,7 +178,7 @@
         /* background-color: blue; */
     }
     .socials a{
-      padding: 30px;
+      padding: 15px;
     }
 
     .location-address{
