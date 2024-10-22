@@ -1,22 +1,27 @@
 @media (width < 912px){
 
+      .navbar{
+        width: 100vw;
+      }
+
       #navbarNavDropdown{
         background: rgb(16,16,17);
       }
 
       #home{
-        padding-top: 9vh;
+        padding-top: 10vh;
         display: flex;
-        width: 100%;
-        height: 100vh;
+        width: 100vw;
+        height: 105vh;
         align-items: center;
         justify-content: center;
       }
 
       .animated-text {
+        margin-top: 50px;
         width: 70vw;
         height: 12vh;
-        /* background-color: black; */
+        background-color: black;
       }
 
       .animated-text span{
@@ -25,10 +30,10 @@
       }
 
       .short-intro{
-        margin-top: 10vh;
+        /* margin-top: 10vh; */
         width: 75vw;
-        height: 25vh;
-        /* background-color: orange; */
+        height: 55vh;
+        background-color: orange;
       }
 
       .short-intro p{
@@ -36,7 +41,7 @@
       }
 
       .menu-btn{
-        margin-top: 10vh;
+        margin-top: 4vh;
         width: 185px;
         height: 55px;
         font-size: 18px;
@@ -60,6 +65,7 @@
         width: 90%;
         height: 100%;
         align-items: center;
+        background-color: blue;
       }
 
       .submenu-img{
