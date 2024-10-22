@@ -446,14 +446,14 @@ align-items:center ;
 }
 
 #just-yety-second{
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 100vw;
   height: 15vh; 
   font-family: "Cherish", cursive;
-  font-size: 55px;
+  font-size: 65px;
   letter-spacing: 6px;
   word-spacing: 10px; 
   background-color: rgb(213,0,0);
@@ -470,9 +470,8 @@ align-items:center ;
   height: 180vh; 
   justify-content: center;
   align-items: center;
-  background: yellow;
+  /* background: yellow; */
 }
-
 
 .menu-container{
 display: grid;
@@ -508,7 +507,7 @@ height: 100%;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 16vh; 
+  height: 15vh; 
   background-color: black;
 }
 
