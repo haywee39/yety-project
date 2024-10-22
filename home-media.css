@@ -192,12 +192,12 @@
     }
 /* *************************************** */
 
-footer{
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 40vh;
-}
+    footer{
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: 40vh;
+    }
 
       
     
