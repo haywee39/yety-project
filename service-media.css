@@ -7,11 +7,42 @@
         background: rgb(16,16,17);
       }
     /* *********************************** */
+      
+    .service-container{
+      display: flex;
+      width: 100vw;
+      height: 55vh;
+      justify-content: center;
+      /* background-color: black; */
+  }
+  
+  .service-head{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      height: 100%;
+      justify-content: first baseline;
+      align-items: center;
+      text-align: center;
+      /* background-color: orange; */
+  }
+    .service-head p{
+      font-size: 20px;
+      /* width: 60vw; */
+    }
+/* ************************************ */
 
+.submenu-img{
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+}
 
-
-
-
+.submenu-img img{
+  width: 180px;
+  height: 130px;
+  border-radius: 10px;
+}
 
 
 
