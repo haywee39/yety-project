@@ -83,6 +83,12 @@ body{
   padding-right: 30px;
 }
 
+.navbar-toggler-icon {
+  background-color: white; 
+  padding-left: 40px;
+  /* outline:1px 1px 1px solid white; */
+}
+
 /*END: ALL OF NAVBAR HERE  */
 
 #about{
@@ -155,7 +161,6 @@ body{
   font-size: 20px;
   font-weight: bolder;
   background: black;
-  /* padding-top: 20px; */
 }
 
 .selling-point .fa-solid{
@@ -170,7 +175,7 @@ body{
     width: 100vw;
     height: 90vh; 
     align-items: center;
-     /* background: lightcoral; */
+    /* background: lightcoral; */
 }
 
 #the-experts h1{
@@ -191,7 +196,7 @@ body{
     height: 65vh; 
     justify-content: space-evenly;
     align-items: center;
-    /* background:lightblue; */
+  /* background:lightblue; */
 }
 
 .chef-profile{
@@ -421,10 +426,6 @@ body{
 .location-address a:hover{
   color: black;
 }
-
-
-
-
 
 
 footer{

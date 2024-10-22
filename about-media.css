@@ -11,7 +11,6 @@
 
     #about{
       margin-top: 7vh;
-      /* padding-top: 6vh; */
       display: flex;
       width: 100vw;
       height: auto; 
@@ -20,7 +19,6 @@
       /* background: red; */
     }
     .about-container{
-      /* margin-top: 15vh; */
       height: auto;
     }
     .about-text{
@@ -132,7 +130,6 @@
         display: flex;
         flex-direction: column;
         height: 35vh;
-        /* background-color: white; */
       }
       .logo-name img{
         margin-right: 0;
@@ -146,7 +143,6 @@
       }
   
       .socials{
-        /* margin-top: 7vh; */
         width: 100vw;
         justify-content: center;
           /* background-color: blue; */
@@ -170,8 +166,5 @@
             width: 100vw;
             height: 40vh;
         }
-  
-  
-        
-  
+          
 }
