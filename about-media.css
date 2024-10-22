@@ -1,4 +1,4 @@
-@media (width < 912){
+@media (width < 912px){
 
     .navbar{
         width: 100vw;
@@ -8,7 +8,59 @@
         background: rgb(16,16,17);
       }
     /* *********************************** */
-        
+
+    #about{
+      margin-top: 7vh;
+      /* padding-top: 6vh; */
+      display: flex;
+      width: 100vw;
+      height: auto; 
+      justify-content: center;
+      align-items: center;
+      /* background: red; */
+    }
+    .about-container{
+      /* margin-top: 15vh; */
+      height: auto;
+    }
+    .about-text{
+      padding-top: 12px;
+      display:block;
+      width: 90%;
+      height: auto;
+    }
+    /* .about-yety-line{ */
+      /* width: 100px; */
+      /* height: 4px; */
+      /* background-color: rgb(167,167,167); */
+      /* margin-left: 30vw; */
+  /* } */
+
+    .about-text img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      margin-left:1rem;
+      shape-outside:circle();
+      float: left;
+      margin-right:3rem;
+    }
+/* ******************************* */
+  .selling-point{
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    background: black;
+    /* padding-top: 20px; */
+  }
+
+  .selling-point p{
+    font-size: 15px;
+  }
+/* *********************************         */
     #cont-bar p{
         font-size: 20px;
       }
