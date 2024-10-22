@@ -193,20 +193,20 @@ body{
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 16vh; 
+  height: 15vh; 
   background-color: black;
 }
 
 #cont-bar a{
   display: flex;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 16vh;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   color: white;
   animation-name: example;
-  animation-duration: .5s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
 }
 @keyframes example {
@@ -236,6 +236,7 @@ body{
   font-size: 23px;
   padding-top: 20px;
 }
+
 
 #company{
   display: flex;
@@ -300,7 +301,6 @@ body{
   /* background-color: yellow; */
   
 }
-
 .location-address a{
   text-decoration: none;
   color: white;
@@ -308,6 +308,8 @@ body{
 .location-address a:hover{
   color: black;
 }
+
+
 
 
 
@@ -344,4 +346,3 @@ footer a:hover{
     transform:rotateY(45deg);
 }
 } 
-
