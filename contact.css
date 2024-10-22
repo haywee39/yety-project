@@ -341,25 +341,24 @@ textarea{
 }
 
 #cont-bar{
-  margin-top: 4vh;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 16vh; 
+  height: 15vh; 
   background-color: black;
 }
 
 #cont-bar a{
   display: flex;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 16vh;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   color: white;
   animation-name: example;
-  animation-duration: .5s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
 }
 @keyframes example {
@@ -389,6 +388,7 @@ textarea{
   font-size: 23px;
   padding-top: 20px;
 }
+
 
 #company{
   display: flex;
@@ -453,7 +453,6 @@ textarea{
   /* background-color: yellow; */
   
 }
-
 .location-address a{
   text-decoration: none;
   color: white;
@@ -461,7 +460,6 @@ textarea{
 .location-address a:hover{
   color: black;
 }
-
 
 
 
