@@ -95,16 +95,16 @@ body{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 170vh; 
+    height: 190vh; 
     align-items: center;
     /* background: blue; */
   }
 
   .contact-container{
-    margin-top: 14vh;
+    margin-top: 17vh;
     display: flex;
     width: 100vw;
-    height: 50vh;
+    height: 65vh;
     justify-content: center;
     align-items: center;
     /* background-color: blueviolet; */
@@ -113,7 +113,7 @@ body{
 .contact-head{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 68%;
     height: 100%;
     align-items: center;
     /* background-color: yellow; */
@@ -132,22 +132,22 @@ body{
 
 .contact-head p{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    width: 90%;
+    font-size: 20px;
+    width: 94%;
     color: rgb(167,167,167);
     /* justify-content: center; */
     text-align: center;
    
 }
-
+/* *********************************************** */
 .contact-icons{
     margin-top: 4vh;
     display: flex;
-    width: 100%;
-    height: 25%;
+    width: 100vw;
+    height: 50vh;
     align-items: center;
-    justify-content: space-evenly;
-    /* background-color: blue; */
+    justify-content: center;
+    /* background-color: purple; */
 }
 
 .contact-icons i{
@@ -161,7 +161,7 @@ body{
 }
 
 .contact-icons h1{
-    font-family: fantasy;
+  font-family: fantasy;
   font-size: 30px;
   color: rgb(213,0,0);
 }
@@ -172,75 +172,24 @@ font-weight: bold;
 color: black;
 }
 
-.phone{
+.phone, .whatsapp, .email, .address{
+  margin: 10px;
     display: flex;
-    width: 300px;
+    width: 335px;
     height: 150px;
     align-items: center;
     justify-content: center;
     /* background-color: rgb(255,222,89); */
-}
+}    
 
-.whatsapp{
-    display: flex;
-     width: 300px;
-    height: 150px;
-    align-items: center;
-    justify-content: center;
-    /* background-color: rgb(255,225,89); */
-}
-
-.email{
-    display: flex;
-    width: 300px;
-    height: 150px;
-    align-items: center;
-    justify-content: center;
-}
-
-.address{
-    display: flex;
-    width: 300px;
-    height: 150px;
-    align-items: center;
-    justify-content: center;
-    /* background-color: rgb(255,222,89); */
-}
-
-.contact-icons .sub-phone{
+.sub-phone, .sub-whatsapp, .sub-email, .sub-address{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
     height: 80px;
     margin-left: 5px;
     padding-top: 10px;
     /* background-color: rgb(255,225,189); */
-    
-}
-.contact-icons .sub-whatsapp{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 80px;
-    margin-left: 5px;
-    padding-top: 10px;
-    /* background-color: rgb(255,225,189); */
-}
-.contact-icons .sub-email{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 80px;
-    margin-left: 5px;
-    padding-top: 10px;
-}
-.contact-icons .sub-address{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 80px;
-    margin-left: 5px;
-    padding-top: 10px;
 }
 
 .contact-icons a{
@@ -256,12 +205,13 @@ color: black;
   color:rgb(213,0,0) ;
 }
 
+/* ****************************************** */
 .contact-form{
   margin-top: 4vh;
   display: flex;
   align-items: center;
   width: 100vw;
-  height: 85vh;
+  height: 100vh;
   /* background-color: orange; */
 }
 
@@ -344,8 +294,9 @@ textarea{
   border-radius: 10px;
   /* background-color: black; */
 }
-
+/* ***************************************************** */
 #cont-bar{
+  margin-top: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;

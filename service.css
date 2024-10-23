@@ -102,17 +102,19 @@ body{
   }
 
 .service-container{
-    display: flex;
-    width: 100vw;
-    height: 30vh;
-    justify-content: center;
-    /* background-color: black; */
+  /* margin-top: 14vh; */
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
 }
 
 .service-head{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 65%;
     height: 100%;
     justify-content: first baseline;
     align-items: center;
@@ -134,7 +136,7 @@ body{
 .service-head p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    width: 100%;
+    width: 90%;
     color: rgb(167,167,167);
 }
 

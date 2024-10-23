@@ -367,11 +367,6 @@ align-items:center ;
   to {scale: 1; opacity: 1;}
 }
 
-/* #best-offer .d-food{
-  width: 300px;
-  height: 300px;
-  border-radius: 145px;
-} */
 
 .one{
   display: flex;
@@ -462,7 +457,7 @@ align-items:center ;
 }
 #just-yety-second .yety-second{
   font-family: "Cherish", cursive;
-  font-size: 35px;
+  font-size: 23px;
   letter-spacing: 6px;
   word-spacing: 10px;
 
