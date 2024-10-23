@@ -11,7 +11,7 @@
     .service-container{
       display: flex;
       width: 100vw;
-      height: 60vh;
+      height: 65vh;
       justify-content: center;
       /* background-color: black; */
   }
@@ -32,22 +32,10 @@
     }
 /* ************************************ */
 
-.submenu-img{
-  display: flex;
-  flex-wrap: wrap;
-  height: 60vh;
-  margin-bottom: 0;
-  /* background-color: orange; */
-}
-
-.submenu-img img{
-  width: 160px;
-  height: 130px;
-  border-radius: 8px;
-}
 /* ********************************************** */
 .menu-container1{
   visibility:hidden;
+  display: none;
 }
 .menu-container{
   visibility: visible;
@@ -57,7 +45,7 @@
   height: 330vh;
   align-items: center;
   justify-content: flex-start;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
 
 }
 .cover-menu{
@@ -66,7 +54,7 @@
   flex-direction:column;
   width: 85vw;
   height: 110vh;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .img-left{
