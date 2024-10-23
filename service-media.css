@@ -11,7 +11,7 @@
     .service-container{
       display: flex;
       width: 100vw;
-      height: 55vh;
+      height: 60vh;
       justify-content: center;
       /* background-color: black; */
   }
@@ -35,21 +35,26 @@
 .submenu-img{
   display: flex;
   flex-wrap: wrap;
-  height: 80vh;
+  height: 60vh;
+  margin-bottom: 0;
+  /* background-color: orange; */
 }
 
 .submenu-img img{
-  width: 180px;
+  width: 160px;
   height: 130px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 /* ********************************************** */
-
+.menu-container1{
+  visibility:hidden;
+}
 .menu-container{
+  visibility: visible;
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 500vh;
+  height: 330vh;
   align-items: center;
   justify-content: flex-start;
   background-color: yellowgreen;
@@ -59,17 +64,15 @@
   display: flex;
   /* flex-wrap: wrap; */
   flex-direction:column;
-  width: 70vw;
+  width: 85vw;
   height: 110vh;
   background-color: red;
-
 }
 
 .img-left{
   width: 100%;
   height: 55vh;
-  background-color: blue;
-
+  background-color: rgb(167,167,167);
 }
 
 
