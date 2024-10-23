@@ -9,9 +9,10 @@
     /* *********************************** */
       
     .service-container{
+      /* margin-top: 0; */
       display: flex;
       width: 100vw;
-      height: 65vh;
+      height: 55vh;
       justify-content: center;
       /* background-color: black; */
   }
