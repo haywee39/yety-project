@@ -12,18 +12,18 @@
         /* background-color: chartreuse; */
       }
       .contact-container{
-        /* margin-top: 0; */
+        margin-top: 14vh;
         display: flex;
         align-items: normal;
         width: 100vw;
-        height: 120vh;
+        height: 109vh;
         /* background-color: blueviolet; */
       }
     .contact-head{
       display: flex;
-      width: 97%;
-      height: 120vh;
-      /* background-color: yellow; */
+      width: 98%;
+      height: 109vh;
+      /* background-color: blue; */
       }
 
   /* ********************************************************** */
@@ -36,6 +36,7 @@
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
+    /* background-color: yellow; */
   }
   .contact-icons i{
     width: 50px;
