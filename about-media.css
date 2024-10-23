@@ -59,31 +59,32 @@
   #the-experts{
     display: flex;
     margin-top: 10px;
-    height: 130vh;
+    width: 100vw;
+    height: 110vh;
     /* background-color: lightgreen; */
   }
   .chef-container{
+    margin-top: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    width: 95vw;
+    height: 100vh;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 0;
-    width: 100%;
-    height: 110vh;
     background-color: yellow;
   }
   .chef-profile{
-    width: 200px;
-    height: 32vh;
+    width: 330px;
+    height: 45vh;
     /* background-color: black; */
   }
   .chef-profile img{
-    width: 95%;
-    height: 280px;
+    width: 330px;
+    height: 80%;
   }
   .chef-details{
-    width: 100%;
-    height: 130px;
+    width: 330px;
+    height: 18%;
     background-color: rgb(213,0,0);
   }
   .chef-details h1{
