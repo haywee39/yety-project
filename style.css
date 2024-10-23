@@ -371,6 +371,12 @@ align-items:center ;
   border-radius: 150px;
 }
 
+.amala{
+  width: 350px;
+  height: 350px;
+  border-radius: 150px;
+}
+
 #best-offer > .pic{
   scale: 0; opacity: 0;
   animation: fade-in linear;
@@ -476,7 +482,7 @@ align-items:center ;
 }
 #just-yety-second .yety-second{
   font-family: "Cherish", cursive;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 6px;
   word-spacing: 10px;
 
