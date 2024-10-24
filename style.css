@@ -243,13 +243,13 @@ body{
   justify-content: center;
   outline: 2px solid white;
   /* background-color: red; */
-  transform: translateX(-100%);
-  animation: slider 2s forwards;
+  transform: translateX(-50%);
+  animation: slider 1s forwards;
 
 }
 @keyframes slider {
   from{
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
   to {
     transform: translateX(0);
