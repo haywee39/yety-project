@@ -209,12 +209,12 @@ body{
   align-items: center;
   justify-content: center;
  /* background-color: red; */
-  transform: translateX(100%);
+  transform: translateX(25%);
   animation: slideIn 2s forwards;
 }
 @keyframes slideIn {
   from{
-    transform: translateX(100%);
+    transform: translateX(25%);
   }
   to {
     transform: translateX(0);
@@ -243,18 +243,18 @@ body{
   justify-content: center;
   outline: 2px solid white;
   /* background-color: red; */
-  /* transform: translateX(25%); */
-  /* animation: slider 1s forwards; */
+  transform: translateX(25%);
+  animation: slider 1s forwards;
 
 }
-/* @keyframes slider {
+@keyframes slider {
   from{
     transform: translateX(25%);
   }
   to {
     transform: translateX(0);
   }
-} */
+}
 
 
 .menu-btn a{
