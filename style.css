@@ -106,6 +106,8 @@ body{
 }
 
 .animated-text {
+  position: relative;
+  
   display: flex;
   width: 70vw;
   height: 15vh;
@@ -202,6 +204,7 @@ body{
 
 
 .short-intro{
+  position: relative;
   margin-top: 5vh;
   display: flex;
   width: 50vw;
@@ -209,17 +212,18 @@ body{
   align-items: center;
   justify-content: center;
  /* background-color: red; */
-  transform: translateX(25%);
-  animation: slideIn 2s forwards;
+ /* transform: translateX(100%); */
+ /* animation:slideIn 2s forwards; */
+  
 }
-@keyframes slideIn {
+/* @keyframes slideIn {
   from{
-    transform: translateX(25%);
+    transform: translateX(100%);
   }
   to {
     transform: translateX(0);
   }
-}
+} */
 
 .short-intro p{
   font-family: 'Courier New', Courier, monospace;
@@ -243,13 +247,13 @@ body{
   justify-content: center;
   outline: 2px solid white;
   /* background-color: red; */
-  transform: translateX(25%);
+  transform: translateX(50%);
   animation: slider 1s forwards;
 
 }
 @keyframes slider {
   from{
-    transform: translateX(25%);
+    transform: translateX(50%);
   }
   to {
     transform: translateX(0);
