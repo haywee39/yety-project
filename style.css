@@ -679,7 +679,7 @@ height: 100%;
 footer{
   display: flex;
   width: 100vw;
-  height: 12vh;
+  height: 10vh;
   background-color: black;
   color: white;  
   justify-content: right;
@@ -689,12 +689,14 @@ footer{
 
 .foot{
   display: flex;
-  width: 55vw;
-  height: 12vh;
+  width: 18vw;
+  height: 10vh;
   color: white;  
-  justify-content: space-evenly;
+  justify-content: center;
   place-items: center;
   font-size: 16px;
+  /* background-color: blue; */
+  
 }
 
 .foot a{
@@ -706,7 +708,7 @@ footer{
 }
 
 .tag{
- text-shadow:3px 3px 3px white;
+ text-shadow:2px 2px 2px grey;
  animation:bayo 2s ease 1s infinite;
 }
 
