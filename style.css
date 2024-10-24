@@ -212,18 +212,20 @@ body{
   align-items: center;
   justify-content: center;
  /* background-color: red; */
- /* transform: translateX(100%); */
- /* animation:slideIn 2s forwards; */
+ opacity: 0; /* Start invisible */
+ animation: fadeIn 1s ease-in forwards; /* Apply the fade-in animation */
   
 }
-/* @keyframes slideIn {
-  from{
-    transform: translateX(100%);
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); /* Start small */
   }
-  to {
-    transform: translateX(0);
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Grow to full size */
   }
-} */
+}
 
 .short-intro p{
   font-family: 'Courier New', Courier, monospace;
@@ -247,16 +249,17 @@ body{
   justify-content: center;
   outline: 2px solid white;
   /* background-color: red; */
-  transform: translateX(50%);
-  animation: slider 1s forwards;
-
+  opacity: 0; /* Start invisible */
+  animation: fadeIn 2s ease-in forwards; /* Apply the fade-in animation */
 }
-@keyframes slider {
-  from{
-    transform: translateX(50%);
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); /* Start small */
   }
-  to {
-    transform: translateX(0);
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Grow to full size */
   }
 }
 
@@ -385,6 +388,7 @@ align-items:center ;
   width: 300px;
   height: 300px;
   border-radius: 150px;
+   
 }
 
 .amala{
@@ -416,7 +420,7 @@ align-items:center ;
   /* background-color: tomato; */
 }
 
-.one.visible{
+.one.visibl{
   transform: translateX(0);
   opacity: 1;
 }
