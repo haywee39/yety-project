@@ -293,10 +293,7 @@ body{
 .location-address a:hover{
   color: black;
 }
-
-
-
-
+/* ********************************************************** */
 
 
 footer{
@@ -305,15 +302,27 @@ footer{
   height: 12vh;
   background-color: black;
   color: white;  
-  justify-content: space-around;
-  place-items: center;
+  justify-content: right;
+  align-items: center;
   font-size: 16px;
 }
-footer a{
+
+.foot{
+  display: flex;
+  width: 55vw;
+  height: 12vh;
+  color: white;  
+  justify-content: space-evenly;
+  place-items: center;
+  font-size: 16px;
+  
+
+}
+.foot a{
   color: white;
   text-decoration: none;  
 }
-footer a:hover{
+.foot a:hover{
   color: red;
 }
 
@@ -330,4 +339,4 @@ footer a:hover{
  50%{
     transform:rotateY(45deg);
 }
-} 
+}
