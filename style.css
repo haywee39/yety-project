@@ -208,8 +208,19 @@ body{
   height: 35vh;
   align-items: center;
   justify-content: center;
-  /* background-color: orange; */
+ /* background-color: red; */
+  transform: translateX(100%);
+  animation: slideIn 2s forwards;
 }
+@keyframes slideIn {
+  from{
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 .short-intro p{
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
@@ -231,7 +242,20 @@ body{
   align-items: center;
   justify-content: center;
   outline: 2px solid white;
+  /* background-color: red; */
+  transform: translateX(-250%);
+  animation: slider 2s forwards;
+
 }
+@keyframes slider {
+  from{
+    transform: translateX(-250%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 
 .menu-btn a{
   text-decoration: none;
@@ -339,19 +363,7 @@ align-items:center ;
   width: 100vw;
   height: 60vh;
   font-style: fantasy;
-  /* background-color: red; */
-  /* transform: translateX(100%); */
-  /* animation: slideIn 2s forwards; */
-
 }
-/* @keyframes slideIn {
-  from{
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-} */
   
 
 

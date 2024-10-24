@@ -14,7 +14,7 @@
       width: 100vw;
       height: 80vh;
       justify-content: center;
-      /* background-color: aqua; */
+      background-color: aqua;
   }
   
   .service-head{
@@ -51,7 +51,6 @@
 }
 .cover-menu{
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction:column;
   width: 85vw;
   height: 110vh;
@@ -104,7 +103,7 @@
       }
   
       .socials{
-        /* margin-top: 7vh; */
+        margin-top: 0;
         width: 100vw;
         justify-content: center;
           /* background-color: blue; */
