@@ -192,8 +192,10 @@ body{
   50% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+
 .img-left p{
-  margin-top: 15vh;
+  margin-top: 10vh;
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   font-size: 18px;
