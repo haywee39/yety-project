@@ -179,6 +179,19 @@ body{
   color: rgb(167,167,167);
 
 }
+
+.blinking-arrow {
+  display: inline-block;
+  font-size: 30px; /* Adjust the size as needed */
+  color: rgb(167,167,167); /* Arrow color */
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
 .img-left p{
   margin-top: 20vh;
   font-family: 'Courier New', Courier, monospace;
