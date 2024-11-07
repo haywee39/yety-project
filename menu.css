@@ -85,12 +85,11 @@ body{
 
 .navbar-toggler-icon {
   background-color: white; 
-  /* margin-left: 5vw; */
 }
 
 
 /* ***************************************** */
-/* Basic Styling for Menu Section */
+/* Styling for Menu Section */
 .menu-section {
   margin-top: 10vh;
   display: flex;
@@ -100,7 +99,7 @@ body{
   justify-content: center;
   align-items: center;
   background: #faf3e0;
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
 }
 
 .menu-section h1 {
@@ -131,12 +130,12 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
 }
 
 .menu-card {
-  width: 250px;
-  height: 350px;
+  width: 270px;
+  height: 370px;
   perspective: 1000px;
   position: relative;
   border-radius: 10px;
@@ -173,13 +172,14 @@ body{
 
 .menu-card-front h3 {
   font-size: 1.3em;
-  color: #1e3d58;
+  color: black;
   margin: 10px 0;
 }
 
 .details-btn {
   margin-top: auto;
   padding: 8px 15px;
+  border-radius: 6px;
   font-size: 1em;
   background: #d62828;
   color: white;
@@ -189,7 +189,7 @@ body{
 }
 
 .details-btn:hover {
-  background: #a91f1f;
+  background: black;
 }
 
 .menu-card-back {
@@ -205,7 +205,7 @@ body{
   list-style: none;
   padding: 0;
   font-size: 0.9em;
-  color: #333;
+  color: black;
 }
 
 .menu-card-back li {
@@ -214,8 +214,9 @@ body{
 
 .back-btn {
   padding: 8px 15px;
+  border-radius: 6px;
   font-size: 1em;
-  background: #1e3d58;
+  background: #d62828;
   color: white;
   border: none;
   cursor: pointer;
@@ -223,7 +224,7 @@ body{
 }
 
 .back-btn:hover {
-  background: #153344;
+  background: black;
 }
 
 /* Flip Effect */
@@ -259,7 +260,7 @@ body{
 /*TESTIMONIALS */
 /* Basic Styles */
 .testimonials {
-    margin-top: 30vh;
+    /* margin-top: 30vh; */
     display: flex;
     flex-direction: column;
     width: 100vw;

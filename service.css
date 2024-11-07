@@ -98,6 +98,7 @@ body{
   height: 70vh;
   justify-content: center;
   align-items: center;
+  background: #faf3e0;
   /* background-color: blueviolet; */
   opacity: 0; /* Start invisible */
   animation: fadeIn 2s ease-in forwards; /* Apply the fade-in animation */
@@ -149,6 +150,7 @@ body{
   height: 180vh;
   justify-content: center;
   align-items: center;
+  background: #faf3e0;
   /* background-color: aqua;  */
 }
 
@@ -161,6 +163,7 @@ body{
   height: auto;
   justify-content: center;
   align-items: center;
+  background: #faf3e0;
   /* background-color: aqua;  */
 } 
 

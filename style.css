@@ -308,6 +308,7 @@ body{
   height: 80vh;
   justify-content: center;
   align-items: center;
+  background: #faf3e0;
   /* background-color: orange; */
 }
 
@@ -319,6 +320,7 @@ body{
   text-align: center;
   justify-content: center;
   align-items: center;
+
   /* background-color: yellow; */
 }
 
@@ -375,6 +377,7 @@ align-items:center ;
   width: 100vw;
   height: 60vh;
   font-style: fantasy;
+  background: #faf3e0;
 }
   
 
@@ -525,6 +528,7 @@ align-items:center ;
   height: 270vh; 
   justify-content: center;
   align-items: center;
+  background: #faf3e0;
   /* background: yellow; */
 }
 

@@ -97,6 +97,7 @@ body{
     width: 100vw;
     height: 200vh; 
     align-items: center;
+    background: #faf3e0;
     /* background: blue; */
   }
 
@@ -162,6 +163,7 @@ body{
     height: 50vh;
     align-items: center;
     justify-content: center;
+    background: #faf3e0;
     /* background-color: purple; */
 }
 
@@ -227,6 +229,7 @@ color: black;
   align-items: center;
   width: 100vw;
   height: 105vh;
+  background: #faf3e0;
   /* background-color: orange; */
 }
 

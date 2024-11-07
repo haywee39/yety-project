@@ -98,6 +98,7 @@ body{
     height: 187vh; 
     justify-content: flex-start;
     align-items: center;
+    background: #faf3e0;
     /* background: red; */
   }
 
@@ -188,6 +189,7 @@ body{
     width: 100vw;
     height: 110vh; 
     align-items: center;
+    background: #faf3e0;
     /* background: lightcoral; */
 }
 

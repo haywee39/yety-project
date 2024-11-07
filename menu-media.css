@@ -7,6 +7,13 @@
         background: rgb(16,16,17);
       }
 
+      /* ************************************************* */
+      .menu-section p {
+        /* font-family: 'Courier New', Courier, monospace; */
+        width: 95%;
+        font-size: 22px;
+        /* color: black; */
+      }
 
 
       /* ******************************************* */
