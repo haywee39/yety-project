@@ -11,6 +11,7 @@ html{
 body{
   overflow-x: hidden;
   color: white;
+  background: #faf3e0;
 }
 
 /* START: ALL OF NAVBAR HERE  */
@@ -99,7 +100,6 @@ body{
   justify-content: center;
   align-items: center;
   background: #faf3e0;
-  /* background-color: blueviolet; */
   opacity: 0; /* Start invisible */
   animation: fadeIn 2s ease-in forwards; /* Apply the fade-in animation */
 }

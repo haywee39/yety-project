@@ -108,7 +108,6 @@ body{
     height: 75vh;
     justify-content: center;
     align-items: center;
-    /* background-color: blueviolet; */
     opacity: 0; /* Start invisible */
     animation: fadeIn 2s ease-in forwards; /* Apply the fade-in animation */
 }

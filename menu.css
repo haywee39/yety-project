@@ -11,6 +11,7 @@ html{
 body{
   overflow-x: hidden;
   color: white;
+  background-color: #faf3e0;;
 }
 
 
@@ -91,7 +92,7 @@ body{
 /* ***************************************** */
 /* Styling for Menu Section */
 .menu-section {
-  margin-top: 10vh;
+  margin-top: 6vh;
   display: flex;
   flex-direction: column;
   padding: 50px 20px;
@@ -99,6 +100,7 @@ body{
   justify-content: center;
   align-items: center;
   background: #faf3e0;
+  height: 180vh;
   /* font-family: Arial, sans-serif; */
 }
 
@@ -171,9 +173,17 @@ body{
 }
 
 .menu-card-front h3 {
+  font-family: fantasy;
   font-size: 1.3em;
   color: black;
   margin: 10px 0;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+.menu-card-front i{
+  color: black;
+  font-size: 18px;
 }
 
 .details-btn {
@@ -201,15 +211,26 @@ body{
   transform: rotateY(180deg);
 }
 
+.menu-card-back h3{
+  font-family: fantasy;
+  font-size: 20px;
+  color: black;
+}
+.menu-card-back a{
+  text-decoration: none;
+  color: black;
+}
+
 .menu-card-back ul {
-  list-style: none;
-  padding: 0;
-  font-size: 0.9em;
+  list-style: image();
+  font-size: .9em;
+  font-weight: 700;
+  text-align: left;
   color: black;
 }
 
 .menu-card-back li {
-  padding: 5px 0;
+  padding: 4px 0;
 }
 
 .back-btn {

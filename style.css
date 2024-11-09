@@ -11,6 +11,7 @@ html{
 body{
   overflow-x: hidden;
   color: white;
+  background: #faf3e0;
 }
 
 
@@ -212,7 +213,6 @@ body{
   height: 35vh;
   align-items: center;
   justify-content: center;
- /* background-color: red; */
  opacity: 0; /* Start invisible */
  animation: fadeIn 1s ease-in forwards; /* Apply the fade-in animation */
   
@@ -250,8 +250,6 @@ body{
   align-items: center;
   justify-content: center;
   outline: 2px solid white;
-  /* outline: 2px solid black; */
-  /* background-color: red; */
   opacity: 0; /* Start invisible */
   animation: fadeIn 2s ease-in forwards; /* Apply the fade-in animation */
 }
@@ -399,13 +397,6 @@ align-items:center ;
    
 }
 
-/* .pic .amala{ */
-  /* width: 320px; */
-  /* height: 320px; */
-  /* border-radius: 150px; */
-  /* background-color: blue; */
-/* } */
-
 #best-offer > .pic{
   scale: 0; opacity: 0;
   animation: fade-in linear;
@@ -448,7 +439,6 @@ align-items:center ;
 
 .home-deli{
   font-family: 'Courier New', Courier, monospace;
-  /* color:rgb(167,167,167) ; */
   color: black;
   font-size: 20px;
   font-weight:bold;
@@ -545,7 +535,6 @@ align-items: center;
 display: flex;
 width: 90vw;
 height: 55vh;
-/* background-color: rgb(183, 0, 255); */
 
 }
 
