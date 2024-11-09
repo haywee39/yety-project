@@ -8,9 +8,14 @@
       }
 
       /* ************************************************* */
+      .menu-section{
+        margin-top: 10vh;
+        height: auto;
+      }
       .menu-section p {
         width: 95%;
         font-size: 22px;
+        /* text-align: left; */
         
       }
 
