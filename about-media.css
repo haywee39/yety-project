@@ -70,27 +70,6 @@
   }
   
 /* ***************************************** */
-  /* #client-container{
-    padding-top: 15px;
-    
-  }
-  .heady{
-    width: 100vw;
-    height: 80vh;
-  }
-  .heady-desc{
-    font-size: 22px;
-  }
-  .client-list h3{
-    font-size: 21px;
-  }
-
-  #client-list p{
-    font-size: 22px;
-  } */
-  
- 
-
 /* ****************************************** */
     #cont-bar p{
         font-size: 22px;
@@ -138,10 +117,9 @@
         display: flex;
         width: 100%;
         height: 5vh;
-        /* background-color: yellow;       */
       }
-  /* *************************************** */
-  
+
+  /* *************************************** */  
   footer{
     display: flex;
     width: 100vw;

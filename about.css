@@ -13,7 +13,7 @@ body{
   color: white;
   background: #faf3e0;
 }
-
+/* ********************************************************** */
 /* START: ALL OF NAVBAR HERE  */
 .navbar{
   position: fixed;
@@ -86,11 +86,10 @@ body{
 
 .navbar-toggler-icon {
   background-color: white; 
-  /* margin-left: 370px; */
 }
 
 /*END: ALL OF NAVBAR HERE  */
-
+/* ********************************************************* */
 #about{
     margin-top: 13vh;
     display: flex;
@@ -161,7 +160,7 @@ body{
     transform: scale(1); /* Grow to full size */
   }
 }
-
+/* ********************************************************************* */
 
 .selling-point{
   margin-top: 10vh;
@@ -179,7 +178,7 @@ body{
 .selling-point .fa-solid{
   color: rgb(213,0,0);
 }
-
+/* ******************************************************************************* */
 /* <!--START THE CHEFS PROFILE BEGIN HERE--> */
 #the-experts{
     margin-top: 60px;
@@ -264,7 +263,7 @@ body{
 
 /* <!--END THE CHEFS PROFILE END HERE   --> */
 
-
+/* *********************************************************** */
 #cont-bar{
   display: flex;
   justify-content: center;
@@ -313,7 +312,7 @@ body{
   font-size: 23px;
   padding-top: 20px;
 }
-
+/* ********************************************************************* */
 
 #company{
   display: flex;
@@ -406,7 +405,6 @@ footer{
   justify-content: center;
   place-items: center;
   font-size: 16px;
-  /* background-color: blue; */
   
 }
 

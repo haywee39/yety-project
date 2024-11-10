@@ -1,4 +1,5 @@
 // ***********************8menu section**********************************
+                    // What customers say. TESTIMONY SECTION 
 document.addEventListener("DOMContentLoaded", function() {
     const testimonials = document.querySelectorAll(".testimonial-card");
     let current = 0;
@@ -19,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // *******************************************************************
 // JavaScript to handle card flip on "See Details" and "Back" button clicks
+                //types of food  MENU ENTREES 
 function flipCard(event) {
     const card = event.target.closest('.menu-card');
     card.classList.add('flip');

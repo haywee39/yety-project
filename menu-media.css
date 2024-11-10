@@ -12,14 +12,11 @@
         margin-top: 10vh;
         height: auto;
       }
+
       .menu-section p {
         width: 95%;
-        font-size: 22px;
-        /* text-align: left; */
-        
+        font-size: 22px; 
       }
-
-
       /* ******************************************* */
       .testimonials {
         width: 100vw;
@@ -27,7 +24,7 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-    }
+      }
 
     .testimonials-container{
         position: absolute;
@@ -47,38 +44,8 @@
         width: 90%;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       /* *************************************** */
-    #company{
+      #company{
         display: flex;
         height: 65vh;
       }
@@ -101,7 +68,6 @@
       }
   
       .socials{
-        /* margin-top: 7vh; */
         width: 100vw;
         justify-content: center;
           /* background-color: blue; */
@@ -117,8 +83,7 @@
         height: 5vh;
         /* background-color: yellow;       */
       }
-  /* *************************************** */
-  
+  /* *************************************** */ 
       footer{
         display: flex;
         width: 100vw;
@@ -133,4 +98,4 @@
         height: 100%;
         /* background-color: blue; */
       }
-}
+    }

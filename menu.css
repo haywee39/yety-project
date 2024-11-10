@@ -14,7 +14,7 @@ body{
   background-color: #faf3e0;;
 }
 
-
+/* *************************************************************** */
 .navbar{
   position: fixed;
   font-family: fantasy;
@@ -90,7 +90,6 @@ body{
 
 
 /* ***************************************** */
-/* Styling for Menu Section */
 .menu-section {
   margin-top: 6vh;
   display: flex;
@@ -256,32 +255,10 @@ body{
 .menu-card.flip .menu-card-back {
   transform: rotateY(0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ************************************************************ */
 
 /*TESTIMONIALS */
-/* Basic Styles */
 .testimonials {
-    /* margin-top: 30vh; */
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -383,8 +360,6 @@ body{
     transform: translateY(0);
     visibility: visible;
 }
-
-
 /* ************************************************************** */
 
 #company{
@@ -457,9 +432,7 @@ body{
   .location-address a:hover{
     color: black;
   }
-  
-  
-  
+    
 /* *************************************************************** */
 footer{
     display: flex;
@@ -480,8 +453,6 @@ footer{
     justify-content: center;
     place-items: center;
     font-size: 16px;
-    /* background-color: blue; */
-    
   }
   
   .foot a{

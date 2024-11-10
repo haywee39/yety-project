@@ -35,12 +35,10 @@ body{
   margin-left: 20px;
 }
 
-
 /* Align menu items to the right */
  .navbar-nav {
   margin-left: auto;
 }
-
 
 /* Change the font color to white */
 .navbar .navbar-nav .nav-link {
@@ -77,7 +75,6 @@ body{
   left: 0;
 }
 
-
 /* Add spacing between menu items */
 .navbar-nav .nav-item {
   margin-left: .5rem;
@@ -89,7 +86,7 @@ body{
   padding-left: 40px;
 }
 /*END: ALL OF NAVBAR HERE  */
-
+/* *************************************************************** */
 /* ******************************************** */
 
 .service-container{
@@ -122,7 +119,6 @@ body{
     justify-content: first baseline;
     align-items: center;
     text-align: center;
-    /* background-color: yellow; */
 }
 
 .service-head h1{
@@ -166,13 +162,13 @@ body{
   background: #faf3e0;
   /* background-color: aqua;  */
 } 
+/* ******************************************** */
 
 .cover-menu{
   display: flex;
   width: 90vw;
   height: 60vh;
   /* background-color: rgb(255, 123, 0); */
-
 }
 
 .img-left{
@@ -191,7 +187,6 @@ body{
 }
 .img-left h3{
   font-family: fantasy;
-  /* color: rgb(167,167,167); */
   color: black;
   padding-top: 10px;
 
@@ -200,7 +195,6 @@ body{
 .blinking-arrow {
   display: inline-block;
   font-size: 30px; /* Adjust the size as needed */
-  /* color: rgb(167,167,167);    */
   color: black;  /* Arrow color */
   animation: blink 1s infinite;
 }
@@ -217,7 +211,6 @@ body{
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   font-size: 19px;
-  /* color: rgb(167,167,167); */
   color: black;
   text-align: center;
 
@@ -276,7 +269,7 @@ body{
   font-size: 23px;
   padding-top: 20px;
 }
-
+/* ********************************************************************** */
 
 #company{
   display: flex;
@@ -311,14 +304,12 @@ body{
   border-radius: 150px;
 }
 
-
 .socials{
   display: flex;
   width: 25vw;
   height: 10vh;
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: yellow; */
   
 }
 
@@ -338,7 +329,6 @@ body{
   height: 5vh;
   justify-content:center;
   align-items: center;
-  /* background-color: yellow; */
   
 }
 .location-address a{
@@ -370,7 +360,6 @@ footer{
   justify-content: center;
   place-items: center;
   font-size: 16px;
-  /* background-color: blue; */
   
 }
 
