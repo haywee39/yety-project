@@ -102,6 +102,27 @@ body{
   height: 180vh;
   /* font-family: Arial, sans-serif; */
 }
+  
+.heading-cover{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Start invisible */
+  animation: fadeIn 2s ease-in forwards; /* Apply the fade-in animation */
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); /* Start small */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Grow to full size */
+  }
+}
+
 
 .menu-section h1 {
   font-family: fantasy;
