@@ -134,7 +134,7 @@ body{
 }
 
 .about-text p{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 20px;
     color: black;
 }
@@ -169,7 +169,7 @@ body{
   height: 15vh;
   justify-content: space-evenly;
   align-items: center;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   font-size: 22px;
   font-weight: bolder;
   background: black;
@@ -238,7 +238,7 @@ body{
   transform: scale(1.5);
 }
 .about-ceo p{
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   font-size: 20px;
   color: black;
   text-align: center;
@@ -308,7 +308,7 @@ body{
 }
 
 #cont-bar p{
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   font-size: 23px;
   padding-top: 20px;
 }

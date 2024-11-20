@@ -139,7 +139,7 @@ body{
 }
 
 .contact-head p{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 20px;
     width: 94%;
     color: black;
@@ -175,7 +175,7 @@ body{
 }
 
 .contact-icons p{
-font-family: 'Courier New', Courier, monospace;
+/* font-family: 'Courier New', Courier, monospace; */
 font-weight: bold;
 color: black;
 }
@@ -349,7 +349,7 @@ textarea{
 }
 
 #cont-bar p{
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   font-size: 23px;
   padding-top: 20px;
 }

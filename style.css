@@ -228,7 +228,7 @@ body{
 }
 
 .short-intro p{
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   font-size: 22px;
   font-weight: bold;
   text-align: center;
@@ -328,7 +328,7 @@ body{
 }
 
 .service-head p{
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   font-size: 20px;
   width: 85%;
   color: black;
@@ -430,7 +430,7 @@ align-items:center ;
 }
 
 .home-deli{
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   color: black;
   font-size: 20px;
   font-weight:bold;
@@ -438,7 +438,7 @@ align-items:center ;
 }
 
 .order-btn{
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   display: flex;
   align-items: center;
   text-align: center;
@@ -579,7 +579,7 @@ height: 100%;
 }
 
 #cont-bar p{
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   font-size: 23px;
   padding-top: 20px;
 }

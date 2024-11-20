@@ -133,7 +133,7 @@ body{
 }
 
 .service-head p{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 22px;
     color: black;
 }
@@ -208,7 +208,7 @@ body{
 
 .img-left p{
   margin-top: 4vh;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   font-style: italic;
   font-size: 19px;
   color: black;
@@ -265,7 +265,7 @@ body{
 }
 
 #cont-bar p{
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   font-size: 23px;
   padding-top: 20px;
 }
