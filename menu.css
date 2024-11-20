@@ -141,7 +141,7 @@ body{
 }
 
 .menu-section p {
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   width: 70%;
   font-size: 20px;
   color: black;
